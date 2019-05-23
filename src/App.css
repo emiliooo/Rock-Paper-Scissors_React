@@ -19,15 +19,58 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.actionContainer {
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.symbol {
+  margin:30px;
+  font-size: 54px;
+  cursor: pointer;
 }
+
+.symbol:hover {
+  background-color: red;
+}
+
+table {
+  font-size: 32px;
+}
+
+.scoreBoard {
+  display: flex;
+  flex-direction: column;
+  border:2px solid grey;
+}
+
+.scoreBoard h3{
+  color: grey;
+
+}
+.scoreBoard-titles {
+  display: inline-block;
+  float: left;
+  width: 54px;
+  height: 38px;
+  background: red;
+  border-radius: 1px;
+}
+
+.scoreBoard-computer {
+  display: inline-block;
+  float: right;
+  height: 40px;
+  background: #0087ff
+}
+
+.block-symbol {
+  margin: 40px;
+}
+.scoreBoard-scoreUser,
+.scoreBoard-scoreComp {
+  display: inline-block;
+  margin-right: 9px;
+  font-size: 40px;
+}
+
+
