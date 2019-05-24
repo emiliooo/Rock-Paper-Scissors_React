@@ -9,7 +9,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: #DE6262;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFB88C, #DE6262);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -33,14 +35,14 @@
   background-color: red;
 }
 
-table {
-  font-size: 32px;
-}
-
 .scoreBoard {
   display: flex;
   flex-direction: column;
   border:2px solid grey;
+  -webkit-box-shadow: 12px -14px 28px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 12px -14px 28px 0px rgba(0,0,0,0.75);
+  box-shadow: 12px -14px 28px 0px rgba(0,0,0,0.75);
+  border-radius: 4px;
 }
 
 .scoreBoard h3{

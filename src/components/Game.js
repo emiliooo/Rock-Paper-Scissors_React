@@ -27,8 +27,6 @@ class Game extends Component {
       }
 
     handleActionClick(e) {
-
-        //if not tr  if(this.state.twoUsers)
          this.setState(
         {
             userChosenAction: e.target.getAttribute("data-action")
@@ -48,10 +46,9 @@ class Game extends Component {
           } else return choice2 = "Scissors";
     }
 
-
     setWinner() {
-    var choice1 = this.state.userChosenAction;
-    var choice2 =  this.randomComputer();
+    let choice1 = this.state.userChosenAction;
+    let choice2 =  this.randomComputer();
     let newScore = Object.assign({}, this.state.score);
   
     this.setState({

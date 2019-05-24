@@ -12,5 +12,4 @@ class Actions extends Component {
     }
 }
 
-
 export default Actions;
