@@ -23,6 +23,7 @@
 
 .actionContainer {
   display: flex;
+  justify-content: center;
 }
 
 .symbol {
@@ -74,5 +75,12 @@
   margin-right: 9px;
   font-size: 40px;
 }
+
+.scoreBoard-scoreUser{
+  display: inline-block;
+  margin-right: 9px;
+  font-size: 40px;
+}
+
 
 
